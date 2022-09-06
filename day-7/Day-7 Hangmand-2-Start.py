@@ -15,7 +15,7 @@ wordLength = len(chosen_word)
 display = []
 for b in range(wordLength):
     display.append("_")
-print(display)
+#print(display)
 
 guess = input("Guess a letter: ").lower()
 
@@ -31,3 +31,9 @@ for position in range(wordLength):
 #TODO-3: - Print 'display' and you should see the guessed letter in the correct position and every other letter replace with "_".
 #Hint - Don't worry about getting the user to guess the next letter. We'll tackle that in step 3.
 print(display)
+
+
+"""other comments"""
+'''
+Comments 
+'''
