@@ -1,10 +1,11 @@
 #Write your code below this line 👇
 
-from decimal import ROUND_UP
+# from decimal import ROUND_UP
+import math
 
 
 def paint_calc(height, width, cover):    
-    cans = ROUND_UP((int(height) * int(width)) / int(cover))
+    cans = math.ceil((int(height) * int(width)) / int(cover))
     print(f"We'll need {cans} cans")
 
 
